@@ -46,7 +46,7 @@ namespace FtpConsoleClient
             }
         }
 
-        public RequestInfo(string method, string message, int errorCode, List<string>  fileInfo)
+        public RequestInfo(string method, string message, int errorCode, List<string> fileInfo)
         {
             this.method = method;
             this.message = message;
